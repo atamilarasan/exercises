@@ -1,0 +1,49 @@
+.container {
+    background: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    grid-gap: 1px;
+  }
+  
+  .cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 3rem;
+    background: rgb(248, 244, 244);
+    color: #ffffff
+  }
+
+  .button-placement {
+      float: right;
+      width: 30%;
+     
+    }
+
+  .button-display{
+    width: 8em;
+    height: 2em;
+    background-color: #72C3DC;
+    color: #FFFFFF;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    margin: 5px;
+  }
+
+  .button-font-display {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem; 
+  }
+  .main {
+    border-style: inset;
+    width: 37%
+  }
